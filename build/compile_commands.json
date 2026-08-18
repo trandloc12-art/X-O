@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:/libs/raylib-6.0/src -g -std=gnu++17 -o CMakeFiles\\X-O.dir\\function\\functions.cpp.obj -c \"C:\\Code cua loc\\TaiLieuNgienCuuGame\\New folder\\X-O\\function\\functions.cpp\"",
+  "file": "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/function/functions.cpp",
+  "output": "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/CMakeFiles/X-O.dir/function/functions.cpp.obj"
+},
+{
+  "directory": "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build",
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:/libs/raylib-6.0/src -isystem C:/libs/raylib-6.0/src/external/glfw/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99 -o raylib_build\\raylib\\CMakeFiles\\raylib.dir\\raudio.c.obj -c C:\\libs\\raylib-6.0\\src\\raudio.c",
   "file": "C:/libs/raylib-6.0/src/raudio.c",
   "output": "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/CMakeFiles/raylib.dir/raudio.c.obj"

@@ -7,5 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(C:/libs/raylib-6.0 raylib_build)
 
 add_executable(X-O main.cpp
-    dto/table.cpp)
+    dto/table.cpp
+    function/functions.cpp)
 target_link_libraries(X-O raylib)

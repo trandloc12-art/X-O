@@ -69,6 +69,16 @@ build CMakeFiles/X-O.dir/dto/table.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug C$
   OBJECT_FILE_DIR = CMakeFiles\X-O.dir\dto
   TARGET_SUPPORT_DIR = CMakeFiles\X-O.dir
 
+build CMakeFiles/X-O.dir/function/functions.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/function/functions.cpp || cmake_object_order_depends_target_X-O
+  CONFIG = Debug
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  DEP_FILE = CMakeFiles\X-O.dir\function\functions.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -IC:/libs/raylib-6.0/src
+  OBJECT_DIR = CMakeFiles\X-O.dir
+  OBJECT_FILE_DIR = CMakeFiles\X-O.dir\function
+  TARGET_SUPPORT_DIR = CMakeFiles\X-O.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target X-O
@@ -77,7 +87,7 @@ build CMakeFiles/X-O.dir/dto/table.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug C$
 #############################################
 # Link the executable X-O.exe
 
-build X-O.exe: CXX_EXECUTABLE_LINKER__X-O_Debug CMakeFiles/X-O.dir/main.cpp.obj CMakeFiles/X-O.dir/dto/table.cpp.obj | raylib_build/raylib/libraylib.a || raylib_build/raylib/external/glfw/src/glfw raylib_build/raylib/libraylib.a
+build X-O.exe: CXX_EXECUTABLE_LINKER__X-O_Debug CMakeFiles/X-O.dir/main.cpp.obj CMakeFiles/X-O.dir/dto/table.cpp.obj CMakeFiles/X-O.dir/function/functions.cpp.obj | raylib_build/raylib/libraylib.a || raylib_build/raylib/external/glfw/src/glfw raylib_build/raylib/libraylib.a
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = raylib_build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
