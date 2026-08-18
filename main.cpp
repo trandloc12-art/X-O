@@ -1,24 +1,21 @@
-#include <raylib.h>
+#include "raylib.h"
 
 int main() {
-    // Initialization
-    const int screenWidth = 800;
-    const int screenHeight = 600;
-    InitWindow(screenWidth, screenHeight, "Raylib C++ Example");
-
-    // Main game loop
+    InitWindow(600, 600, "X-O Game");
+    SetTargetFPS(60);
+    
+    // TODO: khai báo board[3][3], currentPlayer, gameState...
+    
     while (!WindowShouldClose()) {
-        // Update
-
-        // Draw
+        // 1. Update: xử lý input, cập nhật board
+        
+        // 2. Draw
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Hello, Raylib!", 190, 200, 20, LIGHTGRAY);
+        // vẽ lưới, X, O, text...
         EndDrawing();
     }
-
-    // De-Initialization
-    CloseWindow(); // Close window and OpenGL context
-
+    
+    CloseWindow();
     return 0;
 }
