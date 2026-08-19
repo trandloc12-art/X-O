@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build"
+			"value" : "d:/game/X-O/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/game/X-O/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O"
+			"value" : "D:/game/X-O"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1835,7 +1835,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw"
+			"value" : "D:/game/X-O/build/raylib_build/raylib/external/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -2119,7 +2119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build"
+			"value" : "D:/game/X-O/build"
 		},
 		{
 			"name" : "X-O_IS_TOP_LEVEL",
@@ -2143,7 +2143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O"
+			"value" : "D:/game/X-O"
 		},
 		{
 			"name" : "XINPUT_H_FOUND",
@@ -2179,7 +2179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib"
+			"value" : "D:/game/X-O/build/raylib_build/raylib"
 		},
 		{
 			"name" : "raylib_IS_TOP_LEVEL",

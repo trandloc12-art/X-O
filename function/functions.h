@@ -17,6 +17,9 @@ bool getCellFromMouse(const Table& table, int mouseX, int mouseY,
                        int& outRow, int& outCol);
 
 bool isWinXO(const Table& table, int player); // Function to check if the specified player has won the game
+
+// Kiem tra ban co da day chua (khong con o trong = 0) -> dung de xac dinh hoa
+bool isBoardFull(const Table& table);
 #endif
  
 
