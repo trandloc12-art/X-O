@@ -55,8 +55,12 @@ int main() {
             }
         }
 
-        if (gameOver) {
-            DrawText("Game Over", 200, 250, 30, RED);
+        if (isWinXO(board, 1)) {
+            DrawText("Player X wins!", 150, 550, 20, RED);
+        } else if (isWinXO(board, 2)) {
+            DrawText("Player O wins!", 150, 550, 20, BLUE);
+        } else if (isBoardFull(board)) {
+            DrawText("It's a draw!", 150, 550, 20, GRAY);
         }
 
         EndDrawing();
