@@ -47,8 +47,8 @@ int main() {
             }
         }
  
-        // Chỉ cho bấm "Play Again" khi ván đấu đã kết thúc (thắng/thua/hòa)
-        if (gameOver && IsMouseButtonPressed(MOUSE_BUTTON_LEFT) &&
+        // Điều kiện nút play again được thực thi
+        if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT) &&
             CheckCollisionPointRec(mousePos, playAgainButton)) {
             // Tạo lại bàn cờ mới hoàn toàn trống, reset về trạng thái ban đầu
             board = Table(Config::BOARD_SIZE, Config::BOARD_SIZE);
@@ -92,7 +92,9 @@ int main() {
                 DrawText("It's a draw!", Config::OFFSET_X, Config::BUTTON_Y - 30, 20, GRAY);
             }
  
-            // Đổi màu nút khi rê chuột vào (hover) để người chơi biết đây là nút bấm được
+            
+        }
+        // Đổi màu nút khi rê chuột vào (hover) để người chơi biết đây là nút bấm được
             bool hovering = CheckCollisionPointRec(mousePos, playAgainButton);
             DrawRectangleRec(playAgainButton, hovering ? SKYBLUE : LIGHTGRAY);
             DrawRectangleLinesEx(playAgainButton, 2, DARKGRAY);
@@ -100,7 +102,6 @@ int main() {
                      (int)playAgainButton.x + 20,
                      (int)playAgainButton.y + 10,
                      20, BLACK);
-        }
  
         EndDrawing();
     }
