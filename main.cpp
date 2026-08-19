@@ -11,6 +11,7 @@ int main() {
     Table board(Config::BOARD_SIZE, Config::BOARD_SIZE);
  
     int currentPlayer = Config::PLAYER_X;   // 1 = X, 2 = O (khớp kiểu int trong Table)
+    int turnCount = 1;                      // Lượt hiện tại, bắt đầu từ 1
     bool gameOver = false;
  
     // Vùng hình chữ nhật của nút "Play Again", dùng chung cho cả vẽ lẫn kiểm tra click
@@ -42,6 +43,7 @@ int main() {
                 }
  
                 currentPlayer = (currentPlayer == Config::PLAYER_X) ? Config::PLAYER_O : Config::PLAYER_X;
+                turnCount++; // Sang luot ke tiep
             }
         }
  
@@ -51,6 +53,7 @@ int main() {
             // Tạo lại bàn cờ mới hoàn toàn trống, reset về trạng thái ban đầu
             board = Table(Config::BOARD_SIZE, Config::BOARD_SIZE);
             currentPlayer = Config::PLAYER_X;
+            turnCount = 1;
             gameOver = false;
         }
  
@@ -67,6 +70,16 @@ int main() {
                     drawXO(board, r, c);
                 }
             }
+        }
+ 
+        if (!gameOver) {
+            // Hien thi luot hien tai va den luot ai danh
+            const char* playerLabel = (currentPlayer == Config::PLAYER_X) ? "X" : "O";
+            Color playerColor = (currentPlayer == Config::PLAYER_X) ? RED : BLUE;
+ 
+            DrawText(TextFormat("Turn %d", turnCount), Config::OFFSET_X, Config::BUTTON_Y - 30, 20, DARKGRAY);
+            DrawText(TextFormat("Player %s's turn", playerLabel),
+                     Config::OFFSET_X + 100, Config::BUTTON_Y - 30, 20, playerColor);
         }
  
         if (gameOver) {

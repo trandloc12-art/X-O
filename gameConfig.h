@@ -22,11 +22,11 @@ constexpr int BOARD_SIZE = 15;
 constexpr int WIN_CONDITION = 5;
  
 // Kich thuoc 1 o vuong tren man hinh, tinh bang pixel
-constexpr int CELL_SIZE = 40;
+constexpr int CELL_SIZE =55;
  
 // Toa do goc tren-trai cua ban co tren cua so game (pixel)
-constexpr int OFFSET_X = 30;
-constexpr int OFFSET_Y = 30;
+constexpr int OFFSET_X = 150;
+constexpr int OFFSET_Y = 40;
 
 // Chieu cao vung UI phia duoi ban co (dung de hien thi text ket qua + nut "Play Again")
 constexpr int UI_PANEL_HEIGHT = 90;
