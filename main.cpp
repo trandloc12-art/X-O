@@ -13,6 +13,7 @@ int main() {
         BeginDrawing();
         ClearBackground(RAYWHITE);
         // vẽ lưới, X, O, text...
+        DrawText("TEST 123", 10, 10, 20, RED);
         EndDrawing();
     }
     
