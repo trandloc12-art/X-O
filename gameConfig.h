@@ -15,14 +15,18 @@ constexpr int PATTERN_DIM = 16;
 constexpr int PIXEL_SIZE = 10;
  
 // Kich thuoc ban co (so hang / cot). Dung cho ca Table va cac vong lap ve/kiem tra thang.
-constexpr int BOARD_SIZE = 3;
+constexpr int BOARD_SIZE = 15;
+
+// So quan lien tiep can co de thang (luat caro chuan la 5).
+// Voi BOARD_SIZE = 3 (tic-tac-toe co dien) ban co the doi lai thanh 3.
+constexpr int WIN_CONDITION = 5;
  
 // Kich thuoc 1 o vuong tren man hinh, tinh bang pixel
-constexpr int CELL_SIZE = 150;
+constexpr int CELL_SIZE = 40;
  
 // Toa do goc tren-trai cua ban co tren cua so game (pixel)
-constexpr int OFFSET_X = 50;
-constexpr int OFFSET_Y = 50;
+constexpr int OFFSET_X = 30;
+constexpr int OFFSET_Y = 30;
 
 // Chieu cao vung UI phia duoi ban co (dung de hien thi text ket qua + nut "Play Again")
 constexpr int UI_PANEL_HEIGHT = 90;

@@ -105,60 +105,49 @@ bool getCellFromMouse(const Table& table, int mouseX, int mouseY,
 }
  
 // Kiem tra nguoi choi 'player' da thang hay chua
-// Dieu kien thang: co it nhat 1 hang, 1 cot, hoac 1 duong cheo
-// ma tat ca cac o deu bang 'player' (1 = X, 2 = O)
+// Dieu kien thang (luat caro): co it nhat Config::WIN_CONDITION quan LIEN TIEP
+// theo 1 trong 4 huong: ngang, doc, cheo chinh, cheo phu.
+// (Voi ban co dien 3x3, WIN_CONDITION = 3 se cho ket qua tuong duong luat cu.)
 bool isWinXO(const Table& table, int player) {
-    int n = table.getRows(); // gia su ban co vuong (rows == cols)
+    int rows = table.getRows();
+    int cols = table.getCols();
+    const int WIN = Config::WIN_CONDITION;
  
-    // 1. Kiem tra tung HANG
-    for (int r = 0; r < n; r++) {
-        bool win = true;
-        for (int c = 0; c < table.getCols(); c++) {
-            if (table.getValue(r, c) != player) {
-                win = false;
-                break; // chi can 1 o sai la loai hang nay ngay, khoi kiem tra tiep
+    // 4 huong kiem tra: (dr, dc)
+    // (0,1)=ngang | (1,0)=doc | (1,1)=cheo chinh | (1,-1)=cheo phu
+    const int dirs[4][2] = { {0, 1}, {1, 0}, {1, 1}, {1, -1} };
+ 
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            if (table.getValue(r, c) != player) continue;
+ 
+            for (int d = 0; d < 4; d++) {
+                int dr = dirs[d][0];
+                int dc = dirs[d][1];
+ 
+                // Chi bat dau dem tu O DAU TIEN cua 1 chuoi: kiem tra o lien truoc
+                // (theo huong nguoc lai) co phai cung la 'player' khong.
+                // Neu co -> o hien tai khong phai diem bat dau, bo qua de tranh dem trung
+                // (vd chuoi XXXXX se bi dem lai 5 lan neu khong co buoc nay).
+                int pr = r - dr, pc = c - dc;
+                bool prevIsSame = (pr >= 0 && pr < rows && pc >= 0 && pc < cols &&
+                                    table.getValue(pr, pc) == player);
+                if (prevIsSame) continue;
+ 
+                // Dem so quan lien tiep tu (r, c) di theo huong (dr, dc)
+                int count = 1;
+                int nr = r + dr, nc = c + dc;
+                while (nr >= 0 && nr < rows && nc >= 0 && nc < cols &&
+                       table.getValue(nr, nc) == player) {
+                    count++;
+                    if (count >= WIN) return true; // du so quan lien tiep -> thang
+                    nr += dr;
+                    nc += dc;
+                }
             }
         }
-        if (win) return true; // ca hang nay toan player -> thang
     }
  
-    // 2. Kiem tra tung COT
-    for (int c = 0; c < table.getCols(); c++) {
-        bool win = true;
-        for (int r = 0; r < n; r++) {
-            if (table.getValue(r, c) != player) {
-                win = false;
-                break;
-            }
-        }
-        if (win) return true;
-    }
- 
-    // 3. Kiem tra duong CHEO CHINH (tren-trai -> duoi-phai): (0,0),(1,1),(2,2)...
-    {
-        bool win = true;
-        for (int i = 0; i < n; i++) {
-            if (table.getValue(i, i) != player) {
-                win = false;
-                break;
-            }
-        }
-        if (win) return true;
-    }
- 
-    // 4. Kiem tra duong CHEO PHU (tren-phai -> duoi-trai): (0,n-1),(1,n-2),...
-    {
-        bool win = true;
-        for (int i = 0; i < n; i++) {
-            if (table.getValue(i, n - 1 - i) != player) {
-                win = false;
-                break;
-            }
-        }
-        if (win) return true;
-    }
- 
-    // Khong co hang/cot/cheo nao toan player -> chua thang
     return false;
 }
  
