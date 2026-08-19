@@ -15,6 +15,8 @@ void drawXO(const Table& table, int row, int col); // Function to draw the X and
 bool getCellFromMouse(const Table& table, int mouseX, int mouseY,
                        int cellSize, int offsetX, int offsetY,
                        int& outRow, int& outCol);
+
+bool isWinXO(const Table& table, int player); // Function to check if the specified player has won the game
 #endif
  
 
