@@ -23,18 +23,33 @@ void drawXO(const Table& table, int row, int col) {
     int cellSize = Config::CELL_SIZE;
     int offsetX = Config::OFFSET_X;
     int offsetY = Config::OFFSET_Y;
- 
+    int patternDim = Config::PATTERN_DIM;
+
     int value = table.getValue(row, col);
-    int x = offsetX + col * cellSize;
-    int y = offsetY + row * cellSize;
- 
-    if (value == Config::PLAYER_X) {
-        // Ve chu X bang 2 duong cheo
-        DrawLine(x + 20, y + 20, x + cellSize - 20, y + cellSize - 20, RED);
-        DrawLine(x + cellSize - 20, y + 20, x + 20, y + cellSize - 20, RED);
-    } else if (value == Config::PLAYER_O) {
-        // Ve chu O bang duong tron
-        DrawCircleLines(x + cellSize / 2, y + cellSize / 2, cellSize / 2 - 20, BLUE);
+    if (value != Config::PLAYER_X && value != Config::PLAYER_O) return;
+
+    // Hình sẽ chiếm 70% kích thước ô, chừa 30% làm khoảng trống (15% mỗi bên)
+    float fillRatio = 0.7f;
+    int targetSize = (int)(cellSize * fillRatio);   // kích thước hình mong muốn, tính bằng pixel
+    int pixelSize = targetSize / patternDim;         // suy ngược ra kích thước mỗi ô pixel
+
+    int cellX = offsetX + col * cellSize;
+    int cellY = offsetY + row * cellSize;
+
+    int patternX_start = cellX + (cellSize - patternDim * pixelSize) / 2;
+    int patternY_start = cellY + (cellSize - patternDim * pixelSize) / 2;
+
+    Color color = (value == Config::PLAYER_X) ? RED : BLUE;
+    const int (*pattern)[16] = (value == Config::PLAYER_X) ? Config::patternX : Config::patternO;
+
+    for (int r = 0; r < patternDim; r++) {
+        for (int c = 0; c < patternDim; c++) {
+            if (pattern[r][c] == 1) {
+                DrawRectangle(patternX_start + c * pixelSize,
+                              patternY_start + r * pixelSize,
+                              pixelSize, pixelSize, color);
+            }
+        }
     }
 }
  

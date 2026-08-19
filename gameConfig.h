@@ -23,10 +23,19 @@ constexpr int CELL_SIZE = 150;
 // Toa do goc tren-trai cua ban co tren cua so game (pixel)
 constexpr int OFFSET_X = 50;
 constexpr int OFFSET_Y = 50;
+
+// Chieu cao vung UI phia duoi ban co (dung de hien thi text ket qua + nut "Play Again")
+constexpr int UI_PANEL_HEIGHT = 90;
  
 // Kich thuoc cua so game: du de chua ban co + le xung quanh
 constexpr int SCREEN_WIDTH  = OFFSET_X * 2 + CELL_SIZE * BOARD_SIZE;
-constexpr int SCREEN_HEIGHT = OFFSET_Y * 2 + CELL_SIZE * BOARD_SIZE;
+constexpr int SCREEN_HEIGHT = OFFSET_Y * 2 + CELL_SIZE * BOARD_SIZE +  UI_PANEL_HEIGHT;
+
+// Kich thuoc va vi tri nut "Play Again" (tu dong can giua theo chieu ngang man hinh)
+constexpr int BUTTON_WIDTH  = 160;
+constexpr int BUTTON_HEIGHT = 40;
+constexpr int BUTTON_X = (SCREEN_WIDTH - BUTTON_WIDTH) / 2;
+constexpr int BUTTON_Y = OFFSET_Y * 2 + CELL_SIZE * BOARD_SIZE + 40;
  
 // Quy uoc gia tri luu trong Table cho tung nguoi choi (dung xuyen suot project)
 constexpr int EMPTY_CELL   = 0;

@@ -13,10 +13,19 @@ int main() {
     int currentPlayer = Config::PLAYER_X;   // 1 = X, 2 = O (khớp kiểu int trong Table)
     bool gameOver = false;
  
+    // Vùng hình chữ nhật của nút "Play Again", dùng chung cho cả vẽ lẫn kiểm tra click
+    Rectangle playAgainButton = {
+        (float)Config::BUTTON_X,
+        (float)Config::BUTTON_Y,
+        (float)Config::BUTTON_WIDTH,
+        (float)Config::BUTTON_HEIGHT
+    };
+ 
     while (!WindowShouldClose()) {
         // ---------- 1. Update ----------
+        Vector2 mousePos = GetMousePosition();
+ 
         if (!gameOver && IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
-            Vector2 mousePos = GetMousePosition();
             int row, col;
  
             bool valid = getCellFromMouse(board, (int)mousePos.x, (int)mousePos.y,
@@ -36,6 +45,15 @@ int main() {
             }
         }
  
+        // Chỉ cho bấm "Play Again" khi ván đấu đã kết thúc (thắng/thua/hòa)
+        if (gameOver && IsMouseButtonPressed(MOUSE_BUTTON_LEFT) &&
+            CheckCollisionPointRec(mousePos, playAgainButton)) {
+            // Tạo lại bàn cờ mới hoàn toàn trống, reset về trạng thái ban đầu
+            board = Table(Config::BOARD_SIZE, Config::BOARD_SIZE);
+            currentPlayer = Config::PLAYER_X;
+            gameOver = false;
+        }
+ 
         // ---------- 2. Draw ----------
         BeginDrawing();
         ClearBackground(RAYWHITE);
@@ -51,12 +69,24 @@ int main() {
             }
         }
  
-        if (isWinXO(board, Config::PLAYER_X)) {
-            DrawText("Player X wins!", 150, Config::SCREEN_HEIGHT - 50, 20, RED);
-        } else if (isWinXO(board, Config::PLAYER_O)) {
-            DrawText("Player O wins!", 150, Config::SCREEN_HEIGHT - 50, 20, BLUE);
-        } else if (isBoardFull(board)) {
-            DrawText("It's a draw!", 150, Config::SCREEN_HEIGHT - 50, 20, GRAY);
+        if (gameOver) {
+            // Hiển thị kết quả ván đấu
+            if (isWinXO(board, Config::PLAYER_X)) {
+                DrawText("Player X wins!", Config::OFFSET_X, Config::BUTTON_Y - 30, 20, RED);
+            } else if (isWinXO(board, Config::PLAYER_O)) {
+                DrawText("Player O wins!", Config::OFFSET_X, Config::BUTTON_Y - 30, 20, BLUE);
+            } else if (isBoardFull(board)) {
+                DrawText("It's a draw!", Config::OFFSET_X, Config::BUTTON_Y - 30, 20, GRAY);
+            }
+ 
+            // Đổi màu nút khi rê chuột vào (hover) để người chơi biết đây là nút bấm được
+            bool hovering = CheckCollisionPointRec(mousePos, playAgainButton);
+            DrawRectangleRec(playAgainButton, hovering ? SKYBLUE : LIGHTGRAY);
+            DrawRectangleLinesEx(playAgainButton, 2, DARKGRAY);
+            DrawText("Play Again",
+                     (int)playAgainButton.x + 20,
+                     (int)playAgainButton.y + 10,
+                     20, BLACK);
         }
  
         EndDrawing();
