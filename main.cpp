@@ -1,71 +1,67 @@
 #include "raylib.h"
 #include "dto/table.h"
 #include "function/functions.h"
-
+#include "GameConfig.h"
+ 
 int main() {
-    InitWindow(600, 600, "X-O Game");
+    InitWindow(Config::SCREEN_WIDTH, Config::SCREEN_HEIGHT, "X-O Game");
     SetTargetFPS(60);
-
+ 
     // Table tạo NGOÀI vòng lặp — chỉ tạo 1 lần duy nhất, giữ trạng thái xuyên suốt
-    Table board(3, 3);
-
-    int cellSize = 200;   // 600 / 3 ô
-    int offsetX = 0;
-    int offsetY = 0;
-
-    int currentPlayer = 1;   // 1 = X, 2 = O (khớp kiểu int trong Table)
+    Table board(Config::BOARD_SIZE, Config::BOARD_SIZE);
+ 
+    int currentPlayer = Config::PLAYER_X;   // 1 = X, 2 = O (khớp kiểu int trong Table)
     bool gameOver = false;
-
+ 
     while (!WindowShouldClose()) {
         // ---------- 1. Update ----------
         if (!gameOver && IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
             Vector2 mousePos = GetMousePosition();
             int row, col;
-
+ 
             bool valid = getCellFromMouse(board, (int)mousePos.x, (int)mousePos.y,
-                                           cellSize, offsetX, offsetY, row, col);
-
-            if (valid && board.getValue(row, col) == 0) {
+                                           Config::CELL_SIZE, Config::OFFSET_X, Config::OFFSET_Y,
+                                           row, col);
+ 
+            if (valid && board.getValue(row, col) == Config::EMPTY_CELL) {
                 board.setValue(row, col, currentPlayer);
-
-                // TODO: gọi hàm kiểm tra thắng ở đây khi bạn viết xong isWinXO
-                // if (isWinXO(board, currentPlayer)) gameOver = true;
+ 
                 if (isWinXO(board, currentPlayer)) {
                     gameOver = true;
                 } else if (isBoardFull(board)) {
                     gameOver = true; // Hòa
-                } 
-
-                currentPlayer = (currentPlayer == 1) ? 2 : 1;
+                }
+ 
+                currentPlayer = (currentPlayer == Config::PLAYER_X) ? Config::PLAYER_O : Config::PLAYER_X;
             }
         }
-
+ 
         // ---------- 2. Draw ----------
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
+ 
         drawTable(board);
-
+ 
         // Duyệt toàn bộ ô, chỉ vẽ X/O ở ô nào đã có giá trị
         for (int r = 0; r < board.getRows(); r++) {
             for (int c = 0; c < board.getCols(); c++) {
-                if (board.getValue(r, c) != 0) {
+                if (board.getValue(r, c) != Config::EMPTY_CELL) {
                     drawXO(board, r, c);
                 }
             }
         }
-
-        if (isWinXO(board, 1)) {
-            DrawText("Player X wins!", 150, 550, 20, RED);
-        } else if (isWinXO(board, 2)) {
-            DrawText("Player O wins!", 150, 550, 20, BLUE);
+ 
+        if (isWinXO(board, Config::PLAYER_X)) {
+            DrawText("Player X wins!", 150, Config::SCREEN_HEIGHT - 50, 20, RED);
+        } else if (isWinXO(board, Config::PLAYER_O)) {
+            DrawText("Player O wins!", 150, Config::SCREEN_HEIGHT - 50, 20, BLUE);
         } else if (isBoardFull(board)) {
-            DrawText("It's a draw!", 150, 550, 20, GRAY);
+            DrawText("It's a draw!", 150, Config::SCREEN_HEIGHT - 50, 20, GRAY);
         }
-
+ 
         EndDrawing();
     }
-
+ 
     CloseWindow();
     return 0;
 }
