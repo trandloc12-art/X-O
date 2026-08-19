@@ -1,4 +1,4 @@
-#include "Table.h"
+#include "table.h"
 #include <stdexcept>
 
 // Constructor: khởi tạo rows, cols và tạo data kích thước r x c, toàn giá trị 0
