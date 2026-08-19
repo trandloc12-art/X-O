@@ -1,6 +1,6 @@
 #include "functions.h"
 #include "raylib.h"
-#include "../GameConfig.h"
+#include "../gameConfig.h"
  
 // Ve toan bo bang len man hinh (vi du don gian, ban co the chinh lai theo y thich)
 void drawTable(const Table& table) {
@@ -20,37 +20,45 @@ void drawTable(const Table& table) {
 // Ve ky hieu X hoac O tai vi tri (row, col) dua theo gia tri trong Table
 // Quy uoc: 1 = X, 2 = O, 0 = o trong
 void drawXO(const Table& table, int row, int col) {
+    // static: chỉ chạy khởi tạo này ĐÚNG 1 LẦN duy nhất, dù drawXO được gọi rất nhiều lần
+    static Texture2D texX = LoadTexture(Config::TEXTURE_X_PATH);
+    static Texture2D texO = LoadTexture(Config::TEXTURE_O_PATH);
+    static bool filterApplied = []() {
+        SetTextureFilter(texX, TEXTURE_FILTER_POINT);
+        SetTextureFilter(texO, TEXTURE_FILTER_POINT);
+        return true;
+    }();
+
     int cellSize = Config::CELL_SIZE;
     int offsetX = Config::OFFSET_X;
     int offsetY = Config::OFFSET_Y;
-    int patternDim = Config::PATTERN_DIM;
 
     int value = table.getValue(row, col);
     if (value != Config::PLAYER_X && value != Config::PLAYER_O) return;
 
+    Texture2D tex = (value == Config::PLAYER_X) ? texX : texO;
+
     // Hình sẽ chiếm 70% kích thước ô, chừa 30% làm khoảng trống (15% mỗi bên)
     float fillRatio = 0.7f;
-    int targetSize = (int)(cellSize * fillRatio);   // kích thước hình mong muốn, tính bằng pixel
-    int pixelSize = targetSize / patternDim;         // suy ngược ra kích thước mỗi ô pixel
+    float targetSize = cellSize * fillRatio;
 
     int cellX = offsetX + col * cellSize;
     int cellY = offsetY + row * cellSize;
 
-    int patternX_start = cellX + (cellSize - patternDim * pixelSize) / 2;
-    int patternY_start = cellY + (cellSize - patternDim * pixelSize) / 2;
+    // Rectangle nguồn: lấy toàn bộ ảnh gốc
+    Rectangle source = { 0, 0, (float)tex.width, (float)tex.height };
 
-    Color color = (value == Config::PLAYER_X) ? RED : BLUE;
-    const int (*pattern)[16] = (value == Config::PLAYER_X) ? Config::patternX : Config::patternO;
+    // Rectangle đích: vị trí + kích thước hiển thị, canh giữa trong ô
+    Rectangle dest = {
+        cellX + (cellSize - targetSize) / 2,
+        cellY + (cellSize - targetSize) / 2,
+        targetSize,
+        targetSize
+    };
 
-    for (int r = 0; r < patternDim; r++) {
-        for (int c = 0; c < patternDim; c++) {
-            if (pattern[r][c] == 1) {
-                DrawRectangle(patternX_start + c * pixelSize,
-                              patternY_start + r * pixelSize,
-                              pixelSize, pixelSize, color);
-            }
-        }
-    }
+    Vector2 origin = { 0, 0 };   // điểm neo, không xoay nên để (0,0)
+
+    DrawTexturePro(tex, source, dest, origin, 0.0f, WHITE);
 }
  
 // Xac dinh o (row, col) ma con tro chuot dang tro toi
