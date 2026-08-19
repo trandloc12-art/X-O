@@ -195,7 +195,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw::@0007fcb0029cba81045f",
-					"jsonFile" : "target-glfw-Debug-bfcf1ec6c6ba4d4db933.json",
+					"jsonFile" : "target-glfw-Debug-cab5d15ecb80de764d50.json",
 					"name" : "glfw",
 					"projectIndex" : 2
 				},
@@ -219,8 +219,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/game/X-O/build",
-		"source" : "D:/game/X-O"
+		"build" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build",
+		"source" : "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O"
 	},
 	"version" : 
 	{

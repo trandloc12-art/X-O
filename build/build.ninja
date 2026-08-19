@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/game/X-O/build/
+cmake_ninja_workdir = C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/
 # =============================================================================
 # Object build statements for EXECUTABLE target X-O
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/game/X-O/build/
 
 build cmake_object_order_depends_target_X-O: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_raylib
 
-build CMakeFiles/X-O.dir/main.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug D$:/game/X-O/main.cpp || cmake_object_order_depends_target_X-O
+build CMakeFiles/X-O.dir/main.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/main.cpp || cmake_object_order_depends_target_X-O
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\X-O.dir\main.cpp.obj.d
@@ -61,7 +61,7 @@ build CMakeFiles/X-O.dir/main.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug D$:/gam
   TARGET_PDB = X-O.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\X-O.dir
 
-build CMakeFiles/X-O.dir/dto/table.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug D$:/game/X-O/dto/table.cpp || cmake_object_order_depends_target_X-O
+build CMakeFiles/X-O.dir/dto/table.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/dto/table.cpp || cmake_object_order_depends_target_X-O
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\X-O.dir\dto\table.cpp.obj.d
@@ -73,7 +73,7 @@ build CMakeFiles/X-O.dir/dto/table.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug D$
   TARGET_PDB = X-O.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\X-O.dir
 
-build CMakeFiles/X-O.dir/function/functions.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug D$:/game/X-O/function/functions.cpp || cmake_object_order_depends_target_X-O
+build CMakeFiles/X-O.dir/function/functions.cpp.obj: CXX_COMPILER__X-O_unscanned_Debug C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/function/functions.cpp || cmake_object_order_depends_target_X-O
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\X-O.dir\function\functions.cpp.obj.d
@@ -111,7 +111,7 @@ build X-O.exe: CXX_EXECUTABLE_LINKER__X-O_Debug CMakeFiles/X-O.dir/main.cpp.obj 
 # Utility command for package
 
 build CMakeFiles/package.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -123,7 +123,7 @@ build package: phony CMakeFiles/package.util
 # Utility command for package_source
 
 build CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -135,7 +135,7 @@ build package_source: phony CMakeFiles/package_source.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -147,7 +147,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -165,7 +165,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -177,7 +177,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -189,7 +189,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -198,7 +198,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# D:/game/X-O/CMakeLists.txt
+# C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/CMakeLists.txt
 # =============================================================================
 
 
@@ -206,7 +206,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for package
 
 build raylib_build/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -218,7 +218,7 @@ build raylib_build/package: phony raylib_build/CMakeFiles/package.util
 # Utility command for package_source
 
 build raylib_build/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -230,7 +230,7 @@ build raylib_build/package_source: phony raylib_build/CMakeFiles/package_source.
 # Utility command for edit_cache
 
 build raylib_build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -242,7 +242,7 @@ build raylib_build/edit_cache: phony raylib_build/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build raylib_build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -260,7 +260,7 @@ build raylib_build/list_install_components: phony
 # Utility command for install
 
 build raylib_build/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build" && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -272,7 +272,7 @@ build raylib_build/install: phony raylib_build/CMakeFiles/install.util
 # Utility command for install/local
 
 build raylib_build/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -284,7 +284,7 @@ build raylib_build/install/local: phony raylib_build/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build raylib_build/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -401,7 +401,7 @@ build raylib_build/raylib/libraylib.a: C_STATIC_LIBRARY_LINKER__raylib_Debug ray
 # Utility command for package
 
 build raylib_build/raylib/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -413,7 +413,7 @@ build raylib_build/raylib/package: phony raylib_build/raylib/CMakeFiles/package.
 # Utility command for package_source
 
 build raylib_build/raylib/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -425,7 +425,7 @@ build raylib_build/raylib/package_source: phony raylib_build/raylib/CMakeFiles/p
 # Utility command for edit_cache
 
 build raylib_build/raylib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib && "C:\Program Files\CMake\bin\cmake-gui.exe" -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -437,7 +437,7 @@ build raylib_build/raylib/edit_cache: phony raylib_build/raylib/CMakeFiles/edit_
 # Utility command for rebuild_cache
 
 build raylib_build/raylib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -455,7 +455,7 @@ build raylib_build/raylib/list_install_components: phony
 # Utility command for install
 
 build raylib_build/raylib/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib" && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -467,7 +467,7 @@ build raylib_build/raylib/install: phony raylib_build/raylib/CMakeFiles/install.
 # Utility command for install/local
 
 build raylib_build/raylib/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -479,7 +479,7 @@ build raylib_build/raylib/install/local: phony raylib_build/raylib/CMakeFiles/in
 # Utility command for install/strip
 
 build raylib_build/raylib/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/raylib/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -496,7 +496,7 @@ build raylib_build/raylib/install/strip: phony raylib_build/raylib/CMakeFiles/in
 # Utility command for package
 
 build raylib_build/raylib/external/glfw/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -508,7 +508,7 @@ build raylib_build/raylib/external/glfw/package: phony raylib_build/raylib/exter
 # Utility command for package_source
 
 build raylib_build/raylib/external/glfw/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -520,7 +520,7 @@ build raylib_build/raylib/external/glfw/package_source: phony raylib_build/rayli
 # Utility command for edit_cache
 
 build raylib_build/raylib/external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake-gui.exe" -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -532,7 +532,7 @@ build raylib_build/raylib/external/glfw/edit_cache: phony raylib_build/raylib/ex
 # Utility command for rebuild_cache
 
 build raylib_build/raylib/external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -550,7 +550,7 @@ build raylib_build/raylib/external/glfw/list_install_components: phony
 # Utility command for install
 
 build raylib_build/raylib/external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw" && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -562,7 +562,7 @@ build raylib_build/raylib/external/glfw/install: phony raylib_build/raylib/exter
 # Utility command for install/local
 
 build raylib_build/raylib/external/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -574,7 +574,7 @@ build raylib_build/raylib/external/glfw/install/local: phony raylib_build/raylib
 # Utility command for install/strip
 
 build raylib_build/raylib/external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -600,7 +600,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -612,7 +612,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_CO
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -624,7 +624,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_C
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -636,7 +636,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -648,7 +648,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: 
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -660,7 +660,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -672,7 +672,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -684,7 +684,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.ob
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -696,7 +696,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -708,7 +708,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj:
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -720,7 +720,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -732,7 +732,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.ob
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -744,7 +744,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -756,7 +756,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -768,7 +768,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -780,7 +780,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -792,7 +792,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -804,7 +804,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -816,7 +816,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -828,7 +828,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.o
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -840,7 +840,7 @@ build raylib_build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.ob
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
-  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -ID:/game/X-O/build/raylib_build/raylib/external/glfw/src
+  INCLUDES = -IC:/libs/raylib-6.0/src/external/glfw/include -IC:/libs/raylib-6.0/src/external/glfw/src -I"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src"
   OBJECT_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = raylib_build\raylib\external\glfw\src\CMakeFiles\glfw.dir\
@@ -865,7 +865,7 @@ build raylib_build/raylib/external/glfw/src/update_mappings: phony raylib_build/
 # Utility command for package
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/package.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -877,7 +877,7 @@ build raylib_build/raylib/external/glfw/src/package: phony raylib_build/raylib/e
 # Utility command for package_source
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build" && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -889,7 +889,7 @@ build raylib_build/raylib/external/glfw/src/package_source: phony raylib_build/r
 # Utility command for edit_cache
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw\src" && "C:\Program Files\CMake\bin\cmake-gui.exe" -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -901,7 +901,7 @@ build raylib_build/raylib/external/glfw/src/edit_cache: phony raylib_build/rayli
 # Utility command for rebuild_cache
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SD:\game\X-O -BD:\game\X-O\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw\src" && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O" -B"C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -919,7 +919,7 @@ build raylib_build/raylib/external/glfw/src/list_install_components: phony
 # Utility command for install
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw\src" && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -931,7 +931,7 @@ build raylib_build/raylib/external/glfw/src/install: phony raylib_build/raylib/e
 # Utility command for install/local
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw\src" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -943,7 +943,7 @@ build raylib_build/raylib/external/glfw/src/install/local: phony raylib_build/ra
 # Utility command for install/strip
 
 build raylib_build/raylib/external/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND raylib_build/raylib/external/glfw/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\game\X-O\build\raylib_build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Code cua loc\TaiLieuNgienCuuGame\New folder\X-O\build\raylib_build\raylib\external\glfw\src" && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -977,35 +977,35 @@ build update_mappings: phony raylib_build/raylib/external/glfw/src/update_mappin
 # =============================================================================
 
 #############################################
-# Folder: D:/game/X-O/build
+# Folder: C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build
 
 build all: phony X-O.exe raylib_build/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/game/X-O/build/raylib_build
+# Folder: C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build
 
 build raylib_build/all: phony raylib_build/raylib/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/game/X-O/build/raylib_build/raylib
+# Folder: C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib
 
 build raylib_build/raylib/all: phony raylib_build/raylib/libraylib.a raylib_build/raylib/external/glfw/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/game/X-O/build/raylib_build/raylib/external/glfw
+# Folder: C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw
 
 build raylib_build/raylib/external/glfw/all: phony raylib_build/raylib/external/glfw/src/all
 
 # =============================================================================
 
 #############################################
-# Folder: D:/game/X-O/build/raylib_build/raylib/external/glfw/src
+# Folder: C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src
 
 build raylib_build/raylib/external/glfw/src/all: phony raylib_build/raylib/external/glfw/src/glfw
 
@@ -1016,14 +1016,14 @@ build raylib_build/raylib/external/glfw/src/all: phony raylib_build/raylib/exter
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja D$:/game/X-O/build/cmake_install.cmake D$:/game/X-O/build/raylib_build/cmake_install.cmake D$:/game/X-O/build/raylib_build/raylib/cmake_install.cmake D$:/game/X-O/build/raylib_build/raylib/external/glfw/cmake_install.cmake D$:/game/X-O/build/raylib_build/raylib/external/glfw/src/cmake_install.cmake D$:/game/X-O/build/raylib_build/CTestTestfile.cmake D$:/game/X-O/build/raylib_build/raylib/CTestTestfile.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Templates/CPackConfig.cmake.in C$:/libs/raylib-6.0/CMakeLists.txt C$:/libs/raylib-6.0/CMakeOptions.txt C$:/libs/raylib-6.0/cmake/AddIfFlagCompiles.cmake C$:/libs/raylib-6.0/cmake/CompileDefinitions.cmake C$:/libs/raylib-6.0/cmake/CompilerFlags.cmake C$:/libs/raylib-6.0/cmake/EnumOption.cmake C$:/libs/raylib-6.0/cmake/GlfwImport.cmake C$:/libs/raylib-6.0/cmake/InstallConfigurations.cmake C$:/libs/raylib-6.0/cmake/JoinPaths.cmake C$:/libs/raylib-6.0/cmake/LibraryConfigurations.cmake C$:/libs/raylib-6.0/cmake/LibraryPathToLinkerFlags.cmake C$:/libs/raylib-6.0/cmake/PackConfigurations.cmake C$:/libs/raylib-6.0/cmake/ParseConfigHeader.cmake C$:/libs/raylib-6.0/cmake/PopulateConfigVariablesLocally.cmake C$:/libs/raylib-6.0/cmake/raylib-config-version.cmake C$:/libs/raylib-6.0/cmake/raylib-config.cmake C$:/libs/raylib-6.0/raylib.pc.in C$:/libs/raylib-6.0/src/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3.pc.in C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3Config.cmake.in C$:/libs/raylib-6.0/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake D$:/game/X-O/CMakeLists.txt
+build build.ninja C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/cmake_install.cmake C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/raylib_build/cmake_install.cmake C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/raylib_build/raylib/cmake_install.cmake C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/raylib_build/raylib/external/glfw/cmake_install.cmake C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/raylib_build/raylib/external/glfw/src/cmake_install.cmake C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/raylib_build/CTestTestfile.cmake C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/build/raylib_build/raylib/CTestTestfile.cmake: RERUN_CMAKE | C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/CMakeLists.txt C$:/Program$ Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Templates/CPackConfig.cmake.in C$:/libs/raylib-6.0/CMakeLists.txt C$:/libs/raylib-6.0/CMakeOptions.txt C$:/libs/raylib-6.0/cmake/AddIfFlagCompiles.cmake C$:/libs/raylib-6.0/cmake/CompileDefinitions.cmake C$:/libs/raylib-6.0/cmake/CompilerFlags.cmake C$:/libs/raylib-6.0/cmake/EnumOption.cmake C$:/libs/raylib-6.0/cmake/GlfwImport.cmake C$:/libs/raylib-6.0/cmake/InstallConfigurations.cmake C$:/libs/raylib-6.0/cmake/JoinPaths.cmake C$:/libs/raylib-6.0/cmake/LibraryConfigurations.cmake C$:/libs/raylib-6.0/cmake/LibraryPathToLinkerFlags.cmake C$:/libs/raylib-6.0/cmake/PackConfigurations.cmake C$:/libs/raylib-6.0/cmake/ParseConfigHeader.cmake C$:/libs/raylib-6.0/cmake/PopulateConfigVariablesLocally.cmake C$:/libs/raylib-6.0/cmake/raylib-config-version.cmake C$:/libs/raylib-6.0/cmake/raylib-config.cmake C$:/libs/raylib-6.0/raylib.pc.in C$:/libs/raylib-6.0/src/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3.pc.in C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3Config.cmake.in C$:/libs/raylib-6.0/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Templates/CPackConfig.cmake.in C$:/libs/raylib-6.0/CMakeLists.txt C$:/libs/raylib-6.0/CMakeOptions.txt C$:/libs/raylib-6.0/cmake/AddIfFlagCompiles.cmake C$:/libs/raylib-6.0/cmake/CompileDefinitions.cmake C$:/libs/raylib-6.0/cmake/CompilerFlags.cmake C$:/libs/raylib-6.0/cmake/EnumOption.cmake C$:/libs/raylib-6.0/cmake/GlfwImport.cmake C$:/libs/raylib-6.0/cmake/InstallConfigurations.cmake C$:/libs/raylib-6.0/cmake/JoinPaths.cmake C$:/libs/raylib-6.0/cmake/LibraryConfigurations.cmake C$:/libs/raylib-6.0/cmake/LibraryPathToLinkerFlags.cmake C$:/libs/raylib-6.0/cmake/PackConfigurations.cmake C$:/libs/raylib-6.0/cmake/ParseConfigHeader.cmake C$:/libs/raylib-6.0/cmake/PopulateConfigVariablesLocally.cmake C$:/libs/raylib-6.0/cmake/raylib-config-version.cmake C$:/libs/raylib-6.0/cmake/raylib-config.cmake C$:/libs/raylib-6.0/raylib.pc.in C$:/libs/raylib-6.0/src/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3.pc.in C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3Config.cmake.in C$:/libs/raylib-6.0/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake D$:/game/X-O/CMakeLists.txt: phony
+build C$:/Code$ cua$ loc/TaiLieuNgienCuuGame/New$ folder/X-O/CMakeLists.txt C$:/Program$ Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-4.4/Templates/CPackConfig.cmake.in C$:/libs/raylib-6.0/CMakeLists.txt C$:/libs/raylib-6.0/CMakeOptions.txt C$:/libs/raylib-6.0/cmake/AddIfFlagCompiles.cmake C$:/libs/raylib-6.0/cmake/CompileDefinitions.cmake C$:/libs/raylib-6.0/cmake/CompilerFlags.cmake C$:/libs/raylib-6.0/cmake/EnumOption.cmake C$:/libs/raylib-6.0/cmake/GlfwImport.cmake C$:/libs/raylib-6.0/cmake/InstallConfigurations.cmake C$:/libs/raylib-6.0/cmake/JoinPaths.cmake C$:/libs/raylib-6.0/cmake/LibraryConfigurations.cmake C$:/libs/raylib-6.0/cmake/LibraryPathToLinkerFlags.cmake C$:/libs/raylib-6.0/cmake/PackConfigurations.cmake C$:/libs/raylib-6.0/cmake/ParseConfigHeader.cmake C$:/libs/raylib-6.0/cmake/PopulateConfigVariablesLocally.cmake C$:/libs/raylib-6.0/cmake/raylib-config-version.cmake C$:/libs/raylib-6.0/cmake/raylib-config.cmake C$:/libs/raylib-6.0/raylib.pc.in C$:/libs/raylib-6.0/src/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMakeLists.txt C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3.pc.in C$:/libs/raylib-6.0/src/external/glfw/CMake/glfw3Config.cmake.in C$:/libs/raylib-6.0/src/external/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeRCCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
 
 
 #############################################

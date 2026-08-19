@@ -30,6 +30,11 @@ int main() {
 
                 // TODO: gọi hàm kiểm tra thắng ở đây khi bạn viết xong isWinXO
                 // if (isWinXO(board, currentPlayer)) gameOver = true;
+                if (isWinXO(board, currentPlayer)) {
+                    gameOver = true;
+                } else if (isBoardFull(board)) {
+                    gameOver = true; // Hòa
+                } 
 
                 currentPlayer = (currentPlayer == 1) ? 2 : 1;
             }

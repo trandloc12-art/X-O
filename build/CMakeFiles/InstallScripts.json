@@ -1,11 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/game/X-O/build/cmake_install.cmake",
-		"D:/game/X-O/build/raylib_build/cmake_install.cmake",
-		"D:/game/X-O/build/raylib_build/raylib/cmake_install.cmake",
-		"D:/game/X-O/build/raylib_build/raylib/external/glfw/cmake_install.cmake",
-		"D:/game/X-O/build/raylib_build/raylib/external/glfw/src/cmake_install.cmake"
+		"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/cmake_install.cmake",
+		"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/cmake_install.cmake",
+		"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/cmake_install.cmake",
+		"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/cmake_install.cmake",
+		"C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/game/X-O/build/raylib_build/raylib/external/glfw/src/install_local_manifest.txt"
+  file(WRITE "C:/Code cua loc/TaiLieuNgienCuuGame/New folder/X-O/build/raylib_build/raylib/external/glfw/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
