@@ -1,4 +1,4 @@
-
+#ifndef GAMECONFIG_H
 #define GAMECONFIG_H
  
 // File nay chua cac gia tri DUNG CHUNG cho toan bo project (khong thuoc rieng

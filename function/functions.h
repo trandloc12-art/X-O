@@ -3,7 +3,7 @@
  
 #include "../dto/table.h"
 #include "raylib.h"
- 
+#include "../GameConfig.h"
 void drawTable(const Table& table); // Function to draw the table on the console/screen
 void drawXO(const Table& table, int row, int col); // Function to draw the X and O symbols based on the table data
  

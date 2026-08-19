@@ -1,11 +1,12 @@
 #include "functions.h"
 #include "raylib.h"
+#include "../GameConfig.h"
  
 // Ve toan bo bang len man hinh (vi du don gian, ban co the chinh lai theo y thich)
 void drawTable(const Table& table) {
-    int cellSize = 150;
-    int offsetX = 50;
-    int offsetY = 50;
+    int cellSize = Config::CELL_SIZE;
+    int offsetX = Config::OFFSET_X;
+    int offsetY = Config::OFFSET_Y;
  
     for (int r = 0; r < table.getRows(); r++) {
         for (int c = 0; c < table.getCols(); c++) {
@@ -19,19 +20,19 @@ void drawTable(const Table& table) {
 // Ve ky hieu X hoac O tai vi tri (row, col) dua theo gia tri trong Table
 // Quy uoc: 1 = X, 2 = O, 0 = o trong
 void drawXO(const Table& table, int row, int col) {
-    int cellSize = 150;
-    int offsetX = 50;
-    int offsetY = 50;
+    int cellSize = Config::CELL_SIZE;
+    int offsetX = Config::OFFSET_X;
+    int offsetY = Config::OFFSET_Y;
  
     int value = table.getValue(row, col);
     int x = offsetX + col * cellSize;
     int y = offsetY + row * cellSize;
  
-    if (value == 1) {
+    if (value == Config::PLAYER_X) {
         // Ve chu X bang 2 duong cheo
         DrawLine(x + 20, y + 20, x + cellSize - 20, y + cellSize - 20, RED);
         DrawLine(x + cellSize - 20, y + 20, x + 20, y + cellSize - 20, RED);
-    } else if (value == 2) {
+    } else if (value == Config::PLAYER_O) {
         // Ve chu O bang duong tron
         DrawCircleLines(x + cellSize / 2, y + cellSize / 2, cellSize / 2 - 20, BLUE);
     }
@@ -62,7 +63,6 @@ bool getCellFromMouse(const Table& table, int mouseX, int mouseY,
     outCol = col;
     return true;
 }
- //============================================================================================
  
 // Kiem tra nguoi choi 'player' da thang hay chua
 // Dieu kien thang: co it nhat 1 hang, 1 cot, hoac 1 duong cheo
@@ -129,7 +129,7 @@ bool isWinXO(const Table& table, int player) {
 bool isBoardFull(const Table& table) {
     for (int r = 0; r < table.getRows(); r++) {
         for (int c = 0; c < table.getCols(); c++) {
-            if (table.getValue(r, c) == 0) {
+            if (table.getValue(r, c) == Config::EMPTY_CELL) {
                 return false; // van con o trong -> ban co chua day
             }
         }
