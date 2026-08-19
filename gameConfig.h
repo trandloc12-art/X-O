@@ -44,6 +44,7 @@ constexpr int PLAYER_O     = 2;
 //X-O pattern texture path
 constexpr const char* TEXTURE_X_PATH = "../asset/patternX.png";
 constexpr const char* TEXTURE_O_PATH = "../asset/patternO.png";
+constexpr const char* TEXTURE_CELL_PATH = "../asset/cell.png";
 } // namespace Config
 
  

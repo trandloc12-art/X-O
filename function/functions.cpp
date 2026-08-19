@@ -4,17 +4,34 @@
  
 // Ve toan bo bang len man hinh (vi du don gian, ban co the chinh lai theo y thich)
 void drawTable(const Table& table) {
+    static Texture2D texCell = LoadTexture(Config::TEXTURE_CELL_PATH);
+    static bool filterApplied = []() {
+        SetTextureFilter(texCell, TEXTURE_FILTER_POINT);
+        return true;
+    }();
+
     int cellSize = Config::CELL_SIZE;
     int offsetX = Config::OFFSET_X;
     int offsetY = Config::OFFSET_Y;
- 
-    for (int r = 0; r < table.getRows(); r++) {
-        for (int c = 0; c < table.getCols(); c++) {
-            int x = offsetX + c * cellSize;
-            int y = offsetY + r * cellSize;
-            DrawRectangleLines(x, y, cellSize, cellSize, BLACK);
+    int rows = table.getRows();
+    int cols = table.getCols();
+
+    
+    Rectangle source = { 0, 0, (float)texCell.width, (float)texCell.height };// Rectangle nguồn: lấy toàn bộ ảnh gốc
+
+    for (int r = 0; r < rows; r++) {
+        for (int c = 0; c < cols; c++) {
+            int cellX = offsetX + c * cellSize;
+            int cellY = offsetY + r * cellSize;
+
+            Rectangle dest = { (float)cellX, (float)cellY, (float)cellSize, (float)cellSize };
+            Vector2 origin = { 0, 0 };   // điểm neo, không xoay nên để (0,0)
+
+            DrawTexturePro(texCell, source, dest, origin, 0.0f, WHITE);
         }
     }
+ 
+    
 }
  
 // Ve ky hieu X hoac O tai vi tri (row, col) dua theo gia tri trong Table
