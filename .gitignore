@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ===== Build output =====
 build/
 out/
@@ -73,13 +72,3 @@ $RECYCLE.BIN/
 # ===== Environment / secrets (nếu có) =====
 .env
 *.env.local
-=======
-build/
-*.exe
-*.obj
-*.o
-*.a
-*.lib
-*.pdb
-*.ilk
->>>>>>> 039839f0e3158ca15e8c0befc69e96a84b0bc09b
