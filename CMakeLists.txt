@@ -10,6 +10,6 @@ add_executable(X-O main.cpp
     dto/table.cpp
     function/functions.cpp)
  
- 
+target_link_options(X-O PRIVATE -static-libgcc -static-libstdc++ -static)
 target_link_libraries(X-O raylib)
  
